@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Capella’s Acadia Series Satellite</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jiaming Li" />
+    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Capella’s Acadia Series Satellite
+]
+.author[
+### Jiaming Li
+]
+.date[
+### 2024-01-21 (updated: 2024-02-29)
+]
+
+---
+
+class: inverse, middle
+
+# Summary of sensor types
+
+## Optical | Passive
+## Synthetic Aperture Radar (SAR) | Active
+### Capella Space focused on SAR satellites servies.
+
+
+
+---
+
+class: inverse, center, middle
+
+# Passive vs. Active
+
+
+### There a two way for satellite to collect information: passively and actively. As the name suggested, the difference between two kinds of sensor is the source of radiance. It's like hearing echo from Earth on a satellite, but who play the music would be different. 
+
+&lt;img src="Screenshot 2024-01-30 at 00.10.16.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Brief introduction
+
+## Capella Space
+
+Capella Space is the first U.S. company providing commercial SAR satellite since 2018. As a company in space industry, they provide service including disaster response, resource detection, and national security.
+
+## The Acadia Satellites
+The first Acadia Satellite was launched in 2023. Comparing to previous satellite sensors, the Acadia series have better image quality and faster response time.
+Each satellite carries an X-band radar, and they are able to collect SAR interferometry data. 
+
+(Farquharson et al., 2023)
+
+---
+
+## The Acadia Satellites
+Each Capella's satellite equipped with X-band sensor, it collects high resolution data for urban monitoring, vegetation cover, etc.
+
+Some parameter of the sensor is shown:
+
+- Radar bandwidth: 10-700 MHz
+- Slant Range Resolution: 0.214 m
+- Ground Range Resolution: 0.26 - 0.76 m
+- Look angle range: 15 - 50 degree
+
+
+(Farquharson et al., 2023)
+
+
+
+---
+
+# The application of SAR satellites
+
+As Acadias are SAR satellites, they would be applied in remote sensing detection, such as hydrological data collection (Musa, et al., 2015).
+
+The SAR satellite could be used in archaeology, finding "lost city" (Lem, 2017). Thanks to the long wavelength in SAR, they are able to penetrate earth surface and discover what is hidden.
+
+---
+class: middle
+# The application of SAR satellites
+
+The X-band SAR sensor could be also applied on forest border line detection (Perko, 2011).
+Another advantage of remotely sensing is that it could gather earch surface data in a long term. Therefore, it is able to detect subtle changes within building structure. For instance, Lazecky et al. (2016) suggested that long time series SAR images could be used to detect the impact of seasonal effects on bridges. 
+
+
+
+
+---
+
+# Reflection
+
+### Wavelenth
+I'm curious about how the sensors could detect the earth surface, and here are my understanding. Wavelenth is an important feature of SAR as it represent how the signal is interacting with the target. The reason that longer wavelenth could penetrate more layers is that it has lower chance to hit particles and being scattered. Imaging you jump over some obstacle such as rocks, if you can jump farther, the stone won't trip you.
+
+&lt;img src="Rswk2.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: middle
+# Reflection
+
+In terms of the Capella's satellites, X-band is powerful for their operation. However, there are sensors with longer wavelength, such as C-band (3.8-7.5cm), S-band (7.5-15cm), and P-band (30-100cm). These sensors could achieve greater penetration depth and uncover more information. 
+
+### InSAR
+
+The SAR could collect interferometry data which can provide distance and additional geometric information of the target. This is able to detect earthquake fault slip on the earth surface. 
+
+
+
+
+
+
+
+---
+
+# Reference
+
+Capella Space https://support.capellaspace.com/hc/en-us/articles/360059209731-What-types-of-sensors-do-Capella-s-satellites-use-
+
+Farquharson, G., Castelletti, D., De, S., Stringham, C., Yague, N., Bes, V.C., Ryu, J. and Goncharenko, Y., 2023, July. The New Capella Space Satellite Generation: Acadia. In IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium (pp. 1513-1516). IEEE.
+
+Lazecky, M., Hlavacova, I., Bakon, M., Sousa, J.J., Perissin, D. and Patricio, G., 2016. Bridge displacements monitoring using space-borne X-band SAR interferometry. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 10(1), pp.205-210.
+
+Lem, P. (2017) Peering through the sands of time: Searching for the origins of space archaeology, NASA. Available at: https://earthobservatory.nasa.gov/features/SpaceArchaeology (Accessed: 13 February 2024). 
+
+
+
+
+
+
+---
+# Reference
+
+Musa, Z.N., Popescu, I. and Mynett, A., 2015. A review of applications of satellite SAR, optical, altimetry and DEM data for surface water modelling, mapping and parameter estimation. Hydrology and Earth System Sciences, 19(9), pp.3755-3769.
+
+Perko, R., Raggam, H., Deutscher, J., Gutjahr, K. and Schardt, M., 2011. Forest assessment using high resolution SAR data in X-band. Remote sensing, 3(4), pp.792-815.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
