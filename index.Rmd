@@ -51,7 +51,7 @@ Each satellite carries an X-band radar, and they are able to collect SAR interfe
 (Farquharson et al., 2023)
 
 ---
-
+class: middle
 ## The Acadia Satellites
 Each Capella's satellite equipped with X-band sensor, it collects high resolution data for urban monitoring, vegetation cover, etc.
 
@@ -68,7 +68,7 @@ Some parameter of the sensor is shown:
 
 
 ---
-
+class: middle
 # The application of SAR satellites
 
 As Acadias are SAR satellites, they would be applied in remote sensing detection, such as hydrological data collection (Musa, et al., 2015).
@@ -90,12 +90,12 @@ Another advantage of remotely sensing is that it could gather earch surface data
 # Reflection
 
 ### Wavelenth
+
 I'm curious about how the sensors could detect the earth surface, and here are my understanding. Wavelenth is an important feature of SAR as it represent how the signal is interacting with the target. The reason that longer wavelenth could penetrate more layers is that it has lower chance to hit particles and being scattered. Imaging you jump over some obstacle such as rocks, if you can jump farther, the stone won't trip you.
 
+
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-
 knitr::include_graphics('Rswk2.jpeg')
-
 ```
 
 
